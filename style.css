@@ -36,7 +36,16 @@
       transition: transform 0.4s ease;
 
   }
+/* using pusdo slector to target the even elements so every other element */
+.box:nth-of-type(even) {
+transform: translateX(-400%);
+
+}
 
   .box.show {
       transform: translateX(0);
+  }
+
+  .box h2 {
+      font-size: 50px;
   }

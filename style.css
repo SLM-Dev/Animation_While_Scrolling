@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: center;
     margin: 0;
+    overflow-x: hidden;
   }
 
 
@@ -41,6 +42,11 @@
 transform: translateX(-400%);
 
 }
+
+
+/* 
+class show sets a normal postion */
+
 
   .box.show {
       transform: translateX(0);
